@@ -1,0 +1,41 @@
+{
+  "name": "coding-umbrella",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Coding Umbrella - Learn Python, JavaScript, C, PHP and many more popular programming languages with our easy-to-follow tutorials and examples, all for free.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js --hot",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KruzeZab/coding-umbrella.git"
+  },
+  "keywords": [
+    "coding",
+    "umbrella",
+    "programming",
+    "tutorial"
+  ],
+  "author": "Coding Umbrella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KruzeZab/coding-umbrella/issues"
+  },
+  "homepage": "https://github.com/KruzeZab/coding-umbrella#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.2",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.4.0",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
